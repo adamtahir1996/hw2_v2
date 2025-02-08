@@ -312,8 +312,7 @@ for movie in all_movies
     puts "#{movie.title}" "#{movie.year_released}"  "#{movie.rated}" "#{studio_name.name}"
 end
 
-# SELECT movies.title, movies.year_released, movies.rated, studios.name 
-# FROM movies INNER JOIN studios ON studios.id = movies.studio_id;
+
 
 # Prints a header for the cast output
 puts format("%-25s %-20s %-20s", "Movie", "Character", "Actor")
